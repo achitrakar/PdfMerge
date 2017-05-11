@@ -132,6 +132,9 @@ public class PDFMerge {
 		sourceTextArea.setText(sourceFileNames.toString());
 	}
 
+	/*
+	Create Destination Directory to save file.
+	*/
 	private static void createDestinationChooser(final JFrame frame) {
 		String filename = File.separator + "tmp";
 		JFileChooser fileChooser = new JFileChooser(new File(filename));
